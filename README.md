@@ -6,4 +6,23 @@ Presentations for Solar Group, Nanjing University.
 
 > Update: 2018-06-27
 
-(题图来自 www.digitalocean.com)
+(课件题图来自 www.digitalocean.com)
+
+## 下载
+
+```sh
+    git clone https://git.coding.net/lydiazly/python-intro.git
+```
+
+## 课件在线预览:
+
+[安装与配置](http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html)
+(installpy.html)
+
+[Python 简易教程](http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html)
+(main.html)
+
+[Python 进阶]() (即将上线)
+
+ipynb 版本请下载之后用 jupyter notebook 打开.<br>
+(为了之后的更新, 推荐 clone 这个仓库)
