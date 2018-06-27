@@ -1,0 +1,9 @@
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.pyc
+*.fits
+*.vtr
+*.hdf5
+*.ncdf
+*.cdf
+core
