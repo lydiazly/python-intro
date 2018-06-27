@@ -16,13 +16,20 @@ Presentations for Solar Group, Nanjing University.
 
 ## 课件在线预览:
 
-[安装与配置](http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html)
-(installpy.html)
+<a href="http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html" target="_blank">
+安装与配置 (installpy.html)
+</a>
+<br>
 
-[Python 简易教程](http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html)
-(main.html)
+<a href="http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html" target="_blank">
+Python 简易教程 (for Solar Group) (main.html)
+</a>
+<br>
 
-[Python 进阶]() (即将上线)
+<a href="" target="_blank">
+Python 进阶 (for Solar Group)
+</a>
+(即将上线)
 
 ipynb 版本请下载之后用 jupyter notebook 打开.<br>
 (为了之后的更新, 推荐 clone 这个仓库)
