@@ -16,12 +16,12 @@ Presentations for Solar Group, Nanjing University.
 
 ## 课件在线预览:
 
-<a href="http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html" target="_blank">
+<a href="https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html" target="_blank">
 安装与配置 (installpy.html)
 </a>
 <br>
 
-<a href="https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html" target="_blank">
+<a href="http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html" target="_blank">
 Python 简易教程 (for Solar Group) (main.html)
 </a>
 <br>
