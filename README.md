@@ -22,7 +22,7 @@ Presentations for Solar Group, Nanjing University.
 <br>
 
 <a href="https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html" target="_blank">
-Python 简易教程 (for Solar Group) (main.html) 不支持预览, 点击下载
+Python 简易教程 (for Solar Group) (main.html) 不支持预览, 右键下载
 </a>
 <br>
 
