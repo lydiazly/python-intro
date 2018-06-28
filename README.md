@@ -15,7 +15,7 @@ Presentations for Solar Group, Nanjing University.
 ## Download
 
 * 安装与配置 (installpy.ipynb)<br>
-右键下载(
+右键下载 (
 [HTML](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html)
 |
 [Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.ipynb)
@@ -25,7 +25,7 @@ Presentations for Solar Group, Nanjing University.
 </a>
 
 * Python 简易教程 (for Solar Group) (main.ipynb)<br>
-右键下载(
+右键下载 (
 [HTML](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html)
 |
 [Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.ipynb)
