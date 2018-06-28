@@ -72,4 +72,4 @@ $ python <filename>.py
 放映时使用的主题 (但这里的 html 版本是使用默认主题转存的)<br>
 * [jupyter/custom.js](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/jupyter/custom.js) 其中定义了一个按 [.] 键定位到当前的 Cell 的功能
 
-将这两个文件拷贝至配置文件目录, 例如 <font color=navy>~/.jupyter/custom</font>, 刷新浏览器页面即可显示新主题.
+将这两个文件拷贝至配置文件目录, 例如 *~/.jupyter/custom*, 刷新浏览器页面即可显示新主题.
