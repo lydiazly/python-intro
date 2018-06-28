@@ -6,7 +6,7 @@ Presentations for Solar Group, Nanjing University.
 
 (课件题图来自 www.digitalocean.com)
 
-    $ git clone https://git.coding.net/lydiazly/python-intro.git
+`$ git clone https://git.coding.net/lydiazly/python-intro.git`
 
 SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
 
@@ -74,3 +74,9 @@ $ python <filename>.py
 &ensp;其中定义了一个按 [.] 键定位到当前的 Cell 的功能
 
 将这两个文件拷贝至配置文件目录, 例如&ensp;*~/.jupyter/custom* , 刷新浏览器页面即可显示新主题.
+
+
+test:
+
+<iframe src="https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html" ></iframe>
+
