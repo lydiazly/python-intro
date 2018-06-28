@@ -8,7 +8,7 @@ Presentations for Solar Group, Nanjing University.
 
     $ git clone https://git.coding.net/lydiazly/python-intro.git
 
-> SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
+SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
 
 ---
 
@@ -40,7 +40,7 @@ Presentations for Solar Group, Nanjing University.
 
 ### `*.ipynb`
 
-*Tested: python3*
+* Tested:&ensp;python 3.5+
 
 打开:
 
@@ -58,7 +58,7 @@ e.g.<br>
 
 ### `examples/*.py`
 
-*Tested: python2.7.12 & python3.5+*
+* Tested:&ensp;python 2.7.12 & python 3.5
 
 ```sh
 $ python <filename>.py
@@ -69,7 +69,8 @@ $ python <filename>.py
 分享两个 Jupyter 主题的配置文件:
 
 * [jupyter/custom.css](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/jupyter/custom.css)
-放映时使用的主题 (但这里的 html 版本是使用默认主题转存的)<br>
-* [jupyter/custom.js](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/jupyter/custom.js) 其中定义了一个按 [.] 键定位到当前的 Cell 的功能
+&ensp;放映时使用的主题 (但这里的 html 版本是使用默认主题转存的)<br>
+* [jupyter/custom.js](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/jupyter/custom.js)
+&ensp;其中定义了一个按 [.] 键定位到当前的 Cell 的功能
 
-将这两个文件拷贝至配置文件目录, 例如 *~/.jupyter/custom*, 刷新浏览器页面即可显示新主题.
+将这两个文件拷贝至配置文件目录, 例如&ensp;*~/.jupyter/custom* , 刷新浏览器页面即可显示新主题.
