@@ -21,8 +21,7 @@ Presentations for Solar Group, Nanjing University.
 </a>
 <br>
 
-<a href="https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html" target="_blank" download="https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html"
->
+<a href="https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html" target="_blank">
 Python 简易教程 (for Solar Group) (main.html) 不支持预览, 右键下载
 </a>
 <br>
