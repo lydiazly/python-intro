@@ -1,13 +1,3 @@
 Chrome 加载比 Firefox 快
 
-html 文件显示时, Inupt Cell 的字体大小可以调节浏览器的 Fixed-width font 大小:
-
-e.g.
-Chrome: chrome://settings/fonts -> 调节 Minimum font size
-Filefox: about:preferences -> about:preferences -> Advanced -> Monospace
-
-分享两个 Jupyter 配置文件: <br>
-jupyter/
-custom.css: 使用自定义的排版风格<br>
-custom.js : 其中定义了一个按 '.' 将定位到当前的 Cell 的功能<br>
-将这两个文件拷贝至 ~/.jupyter/custom, 刷新浏览器页面即可.
+html 文件显示时, 代码框(Input Cell)内的字体大小可以通过调节浏览器的 Fixed-width font(Monospace) 大小来改变
