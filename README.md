@@ -6,9 +6,7 @@ Presentations for Solar Group, Nanjing University.
 
 (课件题图来自 www.digitalocean.com)
 
-```sh
-    git clone https://git.coding.net/lydiazly/python-intro.git
-```
+    $ git clone https://git.coding.net/lydiazly/python-intro.git
 
 > SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
 
