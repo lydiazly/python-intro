@@ -11717,20 +11717,26 @@ ul.typeahead-list > li > a {
 <style type="text/css">
     div.text_cell_render pre,
 div.text_cell_render code {
- font-family: monospace, monospace;
- color: #353535;
- background-color: #fafafa;
- border: 0px solid #b9b9b9;
- border-top-right-radius: 3px;
- border-bottom-right-radius: 3px;
- border-left: none;
+ background-color: #f7f7f7;
+ border: None
 }
 div.text_cell_render pre {
- padding-left: 5px;
+ border: 1px solid #cfcfcf;
+ border-radius: 3px;
+}
+.highlight {
+ background-color: transparent !important;
+}
+.rendered_html pre {
+ margin: 10px !important;
+ padding: 3px !important;
 }
 .rendered_html h1,
 .text_cell_render h1 {
  text-align: center;
+}
+div.output_subarea {
+ max-width: 100% !important;
 }
 table {margin-left: 5px !important;}
     </style>
@@ -11803,7 +11809,7 @@ div#notebook {
 <script>
 $( document ).ready(function(){
 
-            var cfg = {"base_numbering": 1, "nav_menu": {"height": "432px", "width": "490px"}, "number_sections": true, "sideBar": true, "skip_h1_title": true, "title_cell": "\u5b89\u88c5\u548c\u914d\u7f6e", "title_sidebar": "", "toc_cell": false, "toc_position": {"height": "491px", "left": "1020px", "top": "121px", "width": "279px"}, "toc_section_display": true, "toc_window_display": true};
+            var cfg = {"base_numbering": 1, "nav_menu": {"height": "432px", "width": "490px"}, "number_sections": true, "sideBar": true, "skip_h1_title": true, "title_cell": "", "title_sidebar": "", "toc_cell": false, "toc_position": {"height": "491px", "left": "1020px", "top": "121px", "width": "279px"}, "toc_section_display": true, "toc_window_display": true};
 
             // fire the main function with these parameters
             require(['nbextensions/toc2/toc2'], function (toc2) {
@@ -11882,6 +11888,18 @@ Python 3.6.5 :: Anaconda, Inc.
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>%%bash
+python2 --version
+python3 --version
+</pre></div>
+
+</div>
+</div>
+</div>
 
 <div class="output_wrapper">
 <div class="output">
@@ -11904,24 +11922,12 @@ Python 3.6.5 :: Anaconda, Inc.
 <ul>
 <li>以 Ubuntu 16.04 LTS 为例, 确保系统中已安装:</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-sudo apt-get install python3 python3-dev
+<div class="highlight"><pre><span></span>sudo apt-get install python3 python3-dev
 sudo apt-get install python3-tk
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11943,6 +11949,17 @@ sudo apt-get install python3-tk
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>%%bash
+pip --version
+</pre></div>
+
+</div>
+</div>
+</div>
 
 <div class="output_wrapper">
 <div class="output">
@@ -11960,6 +11977,17 @@ sudo apt-get install python3-tk
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>%%bash
+python -m pip --version
+</pre></div>
+
+</div>
+</div>
+</div>
 
 <div class="output_wrapper">
 <div class="output">
@@ -11979,23 +12007,11 @@ sudo apt-get install python3-tk
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>安装:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-sudo apt-get install python3-pip
+<div class="highlight"><pre><span></span>sudo apt-get install python3-pip
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12003,13 +12019,9 @@ sudo apt-get install python3-pip
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install &lt;package&gt;
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install &lt;package&gt;
 pip install --upgrade &lt;package&gt;
 pip uninstall &lt;package&gt;
 pip list
@@ -12020,22 +12032,14 @@ pip show &lt;package&gt;
 </div>
 </div>
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-<span class="c1"># 安装到根目录(不推荐!)</span>
-sudo -H pip install &lt;package&gt;
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>安装到根目录(不推荐!)</p>
+<div class="highlight"><pre><span></span>sudo -H pip install &lt;package&gt;
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12088,22 +12092,15 @@ sudo -H pip install &lt;package&gt;
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-python -c <span class="s2">"import &lt;package&gt;"</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>python -c <span class="s2">"import &lt;package&gt;"</span>
 python -c <span class="s2">"import &lt;package&gt;; print(&lt;package&gt;.__version__)"</span>  <span class="c1"># 版本号</span>
 python -c <span class="s2">"import &lt;package&gt;; print(&lt;package&gt;.version)"</span>  <span class="c1"># 安装位置</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12153,26 +12150,13 @@ ENABLE_USER_SITE: True
 </ul>
 <blockquote><p><font color="#b32425">*使用 Anaconda 路径下的 pip 时不需要这个选项*</font></p>
 </blockquote>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-pip install --user &lt;pkg_name&gt;
+<div class="highlight"><pre><span></span>pip install --user &lt;pkg_name&gt;
 pip list --user
 pip list --outdated --user
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12219,30 +12203,12 @@ bash Miniconda3-latest-Linux-x86_64.sh
 <div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="nv">$HOME</span>/miniconda3/bin:<span class="nv">$PATH</span>
 . <span class="nv">$HOME</span>/miniconda3/etc/profile.d/conda.sh
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>完成后执行:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-<span class="nb">source</span> ~/.bashrc
+<p> 完成后执行:</p>
+<div class="highlight"><pre><span></span><span class="nb">source</span> ~/.bashrc
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12253,19 +12219,13 @@ bash Miniconda3-latest-Linux-x86_64.sh
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda update conda pip
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda update conda pip
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12276,19 +12236,13 @@ conda update conda pip
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda <span class="o">[</span>cmd<span class="o">]</span> --help
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda <span class="o">[</span>cmd<span class="o">]</span> --help
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12306,20 +12260,15 @@ conda <span class="o">[</span>cmd<span class="o">]</span> --help
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>默认环境为 base
+<p>默认环境为 base<br>
 <code>-n, --name &lt;env_name&gt;</code> 指定环境</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-conda create --name &lt;env_name&gt; <span class="o">[</span>&lt;packages&gt;<span class="o">]</span> <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.6
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda create --name &lt;env_name&gt; <span class="o">[</span>&lt;packages&gt;<span class="o">]</span> <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.6
 conda create --name &lt;env_name&gt; --clone base
 
 <span class="c1"># e.g.</span>
@@ -12329,16 +12278,9 @@ conda create --name intel intelpython3_core <span class="nv">python</span><span 
 </div>
 </div>
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-<span class="c1"># 删除环境</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="c1"># 删除环境</span>
 conda-env remove --name &lt;env_name&gt;
 *
 <span class="c1"># 列出信息</span>
@@ -12360,35 +12302,25 @@ conda &lt;commands&gt; --name &lt;env_name&gt;
 </div>
 </div>
 </div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="使用-conda-命令">使用 conda 命令<a class="anchor-link" href="#%E4%BD%BF%E7%94%A8-conda-%E5%91%BD%E4%BB%A4">¶</a></h4>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-conda info <span class="o">[</span>&lt;packages&gt;<span class="o">]</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda info <span class="o">[</span>&lt;packages&gt;<span class="o">]</span>
 conda list <span class="o">[</span>&lt;packages&gt;<span class="o">]</span>
 conda install &lt;packages&gt;
 conda update/upgrade &lt;packages&gt;
 conda remove/uninstall &lt;packages&gt;
 conda clean ...
-
-<span class="c1"># 见 conda --help 或 conda cmd --help</span>
 </pre></div>
+<p>见 <code>conda --help</code> 或 <code>conda cmd --help</code></p>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12397,14 +12329,9 @@ conda clean ...
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-<span class="c1"># 安装确认时显示源的 url, 默认已开启</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="c1"># 安装确认时显示源的 url, 默认已开启</span>
 conda config --set show_channel_urls True
 
 <span class="c1"># 禁止每次更新自动检查 conda 的更新, 默认True</span>
@@ -12422,15 +12349,8 @@ conda config --remove-key channels
 <span class="c1"># 删除某项设置的某个值, 例如删除某个源</span>
 conda config --remove channels &lt;channel&gt;
 </pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>用户配置文件 <code>~/.condarc</code> (见 <a href="#conda-%E9%95%9C%E5%83%8F%E6%BA%90">conda 镜像源</a>)</p>
+<p><br>
+用户配置文件 <code>~/.condarc</code> (见 <a href="#conda-%E9%95%9C%E5%83%8F%E6%BA%90">conda 镜像源</a>)</p>
 <p>也可以在不同的环境用不同的配置文件: <code>~/miniconda3/envs/&lt;env_name&gt;/.condarc</code></p>
 
 </div>
@@ -12490,20 +12410,14 @@ trusted-host = pypi.doubanio.com
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda config --add/--prepend channels &lt;new_channel&gt;
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda config --add/--prepend channels &lt;new_channel&gt;
 conda config --append channels &lt;new_channel&gt;
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12514,30 +12428,12 @@ conda config --append channels &lt;new_channel&gt;
 <p>channels 的默认的优先级为: 前排优先<br>
 镜像源中 <code>pkgs/main</code> 通常比 <code>pkgs/free</code> 新, 因此将其放在最前.<br>
 或使用 <code>channel_priority: false</code>, 见上一节 <a href="#%E4%BD%BF%E7%94%A8-conda-%E5%91%BD%E4%BB%A4">conda 设置</a>.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>e.g.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+<div class="highlight"><pre><span></span>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12562,14 +12458,9 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-<span class="c1"># 添加 ppa</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="c1"># 添加 ppa</span>
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 
@@ -12588,27 +12479,19 @@ sudo -H python3.6 get-pip.py
 </div>
 </div>
 </div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="conda-安装时指定源且禁用其他源">conda 安装时指定源且禁用其他源<a class="anchor-link" href="#conda-%E5%AE%89%E8%A3%85%E6%97%B6%E6%8C%87%E5%AE%9A%E6%BA%90%E4%B8%94%E7%A6%81%E7%94%A8%E5%85%B6%E4%BB%96%E6%BA%90">¶</a></h4>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda install &lt;packages&gt; -c &lt;channel&gt; --override-channels
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda install &lt;packages&gt; -c &lt;channel&gt; --override-channels
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12616,19 +12499,13 @@ conda install &lt;packages&gt; -c &lt;channel&gt; --override-channels
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install <span class="s2">"astropy&lt;3.0"</span> <span class="c1"># for python &lt; 3.5</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install <span class="s2">"astropy&lt;3.0"</span> <span class="c1"># for python &lt; 3.5</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12643,13 +12520,9 @@ pip install <span class="s2">"astropy&lt;3.0"</span> <span class="c1"># for pyth
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda install numpy
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda install numpy
 conda install scipy
 conda install matplotlib
 </pre></div>
@@ -12657,23 +12530,15 @@ conda install matplotlib
 </div>
 </div>
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install numpy
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install numpy
 pip install scipy
 pip install matplotlib
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12753,35 +12618,23 @@ else:
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda install astropy
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda install astropy
 conda install sunpy -c conda-forge
 </pre></div>
 
 </div>
 </div>
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install astropy
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install astropy
 pip install sunpy<span class="o">[</span>all<span class="o">]</span> pytest
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13020,24 +12873,13 @@ e.g.</p>
 <blockquote><p>[downloads]<br>
  download_dir = ...</p>
 </blockquote>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">sunpy</span>
-<span class="n">sunpy</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s1">'downloads'</span><span class="p">,</span> <span class="s1">'download_dir'</span><span class="p">,</span>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">sunpy</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">sunpy</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s1">'downloads'</span><span class="p">,</span> <span class="s1">'download_dir'</span><span class="p">,</span>
                  <span class="s1">'/home/&lt;user&gt;/&lt;your_path&gt;/sunpy-downloads/data'</span><span class="p">)</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13053,33 +12895,21 @@ e.g.</p>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda install jupyter
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda install jupyter
 </pre></div>
 
 </div>
 </div>
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install jupyter
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install jupyter
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13129,19 +12959,13 @@ runtime:
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install nbopen
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install nbopen
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13171,23 +12995,19 @@ pip install nbopen
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install jupyter_contrib_nbextensions
-<span class="c1"># Or</span>
-conda install jupyter_contrib_nbextensions -c conda-forge
-<span class="c1"># This also automatically installs the Javascript and CSS files:</span>
-<span class="c1"># jupyter contrib nbextension install --sys-prefix</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda install jupyter_contrib_nbextensions -c conda-forge
 </pre></div>
+<p> Or</p>
+<div class="highlight"><pre><span></span>pip install jupyter_contrib_nbextensions
+</pre></div>
+<blockquote><p>This also automatically installs the Javascript and CSS files:<br>
+<code>jupyter contrib nbextension install --sys-prefix</code></p>
+</blockquote>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13197,21 +13017,15 @@ conda install jupyter_contrib_nbextensions -c conda-forge
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-jupyter nbextension list <span class="c1"># 查看</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>jupyter nbextension list <span class="c1"># 查看</span>
 jupyter nbextension <span class="nb">enable</span> &lt;path&gt; <span class="c1"># &lt;path&gt; 为上述 list 中的 &lt;extension&gt;/main</span>
 jupyter nbextension disable &lt;path&gt;
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13222,19 +13036,13 @@ jupyter nbextension disable &lt;path&gt;
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install jupyterthemes
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install jupyterthemes
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13245,51 +13053,35 @@ pip install jupyterthemes
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-pip install nbtutor
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda install nbtutor -c conda-forge
+</pre></div>
+<p> Or</p>
+<div class="highlight"><pre><span></span>pip install nbtutor
 jupyter nbextension install --overwrite --py nbtutor
 jupyter nbextension <span class="nb">enable</span> --py nbtutor
-
-<span class="c1"># Or</span>
-
-conda install nbtutor -c conda-forge
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>载入:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">load_ext</span> nbtutor
-
-<span class="c1"># 在 CodeCell 中首行加入下面语句, 然后执行 Cell (numpy 等需要在 Cell 内导入)</span>
-<span class="o">%%</span><span class="k">nbtutor</span> -r -f
-# 或
-%%nbtutor -r -f -i  # 缩减显示
+<div class="highlight"><pre><span></span><span class="c1"># ipython/jupyter</span>
+<span class="o">%</span><span class="n">load_ext</span> <span class="n">nbtutor</span>
+</pre></div>
+<p>使用:<br>
+CodeCell 中首行加入下面语句, 然后执行 Cell (numpy 等需要在 Cell 内导入)</p>
+<div class="highlight"><pre><span></span><span class="c1"># ipython/jupyter</span>
+<span class="o">%%</span><span class="n">nbtutor</span> <span class="o">-</span><span class="n">r</span> <span class="o">-</span><span class="n">f</span>
+<span class="c1"># 或</span>
+<span class="o">%%</span><span class="n">nbtutor</span> <span class="o">-</span><span class="n">r</span> <span class="o">-</span><span class="n">f</span> <span class="o">-</span><span class="n">i</span>  <span class="c1"># 缩减显示</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13306,34 +13098,17 @@ conda install nbtutor -c conda-forge
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-git clone https://bitbucket.org/lucashnegri/peakutils.git
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>git clone https://bitbucket.org/lucashnegri/peakutils.git
 <span class="nb">cd</span> peakutils
 python setup.py install
 </pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">peakutils</span>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">peakutils</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13344,34 +13119,17 @@ python setup.py install
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-conda install lmfit -c conda-forge
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>conda install lmfit -c conda-forge
 <span class="c1"># 或</span>
 pip install lmfit
 </pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">lmfit</span>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">lmfit</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13382,28 +13140,24 @@ pip install lmfit
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-
-<span class="c1"># pandas:</span>
-conda install pytables pandas
-<span class="c1"># 或</span>
-pip install tables pandas
-
-<span class="c1"># h5py: (http://docs.h5py.org/en/latest/index.html)</span>
-conda install h5py  <span class="c1"># 推荐. 将同时安装 hdf5, 并得到 h5dump 等命令</span>
-<span class="c1"># 或</span>
-pip install h5py  <span class="c1"># 需要 sudo apt-get install libhdf5-dev</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>pandas</strong></p>
+<div class="highlight"><pre><span></span>conda install pytables pandas
+</pre></div>
+<p> Or</p>
+<div class="highlight"><pre><span></span>pip install tables pandas
+</pre></div>
+<p><br><br>
+<strong>h5py</strong> (<a href="http://docs.h5py.org/en/latest/index.html">http://docs.h5py.org/en/latest/index.html</a>)</p>
+<div class="highlight"><pre><span></span>conda install h5py  <span class="c1"># 推荐. 将同时安装 hdf5, 并得到 h5dump 等命令</span>
+</pre></div>
+<p> Or</p>
+<div class="highlight"><pre><span></span>pip install h5py  <span class="c1"># 需要 sudo apt-get install libhdf5-dev</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13416,19 +13170,13 @@ pip install h5py  <span class="c1"># 需要 sudo apt-get install libhdf5-dev</sp
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install cdflib <span class="c1"># https://github.com/MAVENSDC/cdflib</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install cdflib <span class="c1"># https://github.com/MAVENSDC/cdflib</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13439,38 +13187,27 @@ pip install cdflib <span class="c1"># https://github.com/MAVENSDC/cdflib</span>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-sudo apt-get install mercurial  <span class="c1"># 得到 hg 命令</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>sudo apt-get install mercurial  <span class="c1"># 得到 hg 命令</span>
 
 hg clone https://bitbucket.org/pauloh/pyevtk
 <span class="nb">cd</span> pyevtk
 python setup.py build --debug install
-
-hg pull <span class="o">&amp;&amp;</span> hg update default <span class="c1"># 更新</span>
+</pre></div>
+<div class="highlight"><pre><span></span>hg pull <span class="o">&amp;&amp;</span> hg update default <span class="c1"># 更新</span>
 </pre></div>
 
 </div>
 </div>
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">evtk.hl</span> <span class="k">import</span> <span class="n">gridToVTK</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">evtk.hl</span> <span class="kn">import</span> <span class="n">gridToVTK</span>
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13481,19 +13218,16 @@ hg pull <span class="o">&amp;&amp;</span> hg update default <span class="c1"># �
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>%%bash
-pip install mayavi  <span class="c1"># 将同时安装 vtk. pip 是目前 mayavi 最保险的安装方式</span>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span>pip install mayavi  <span class="c1"># 将同时安装 vtk. (pip 是目前 mayavi 最保险的安装方式)</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="c1"># shell</span>
+mayavi2
 </pre></div>
 
 </div>
 </div>
-</div>
-
 </div>
     </div>
   </div>
