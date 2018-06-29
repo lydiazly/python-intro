@@ -12215,12 +12215,6 @@ bash Miniconda3-latest-Linux-x86_64.sh
 <ul>
 <li>安装好后先更新 conda 和 pip:</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>conda update conda pip
 </pre></div>
 
@@ -12232,12 +12226,6 @@ bash Miniconda3-latest-Linux-x86_64.sh
 <ul>
 <li>帮助</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>conda <span class="o">[</span>cmd<span class="o">]</span> --help
 </pre></div>
 
@@ -12262,24 +12250,12 @@ bash Miniconda3-latest-Linux-x86_64.sh
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>默认环境为 base<br>
 <code>-n, --name &lt;env_name&gt;</code> 指定环境</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>conda create --name &lt;env_name&gt; <span class="o">[</span>&lt;packages&gt;<span class="o">]</span> <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.6
 conda create --name &lt;env_name&gt; --clone base
 
 <span class="c1"># e.g.</span>
 conda create --name intel intelpython3_core <span class="nv">python</span><span class="o">=</span><span class="m">3</span>
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span><span class="c1"># 删除环境</span>
 conda-env remove --name &lt;env_name&gt;
 *
@@ -12324,13 +12300,7 @@ conda clean ...
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>配置文件设置 (参考链接 <a href="https://conda.io/docs/user-guide/configuration/use-condarc.html">https://conda.io/docs/user-guide/configuration/use-condarc.html</a>):</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<p>配置:</p>
 <div class="highlight"><pre><span></span><span class="c1"># 安装确认时显示源的 url, 默认已开启</span>
 conda config --set show_channel_urls True
 
@@ -12349,8 +12319,8 @@ conda config --remove-key channels
 <span class="c1"># 删除某项设置的某个值, 例如删除某个源</span>
 conda config --remove channels &lt;channel&gt;
 </pre></div>
-<p><br>
-用户配置文件 <code>~/.condarc</code> (见 <a href="#conda-%E9%95%9C%E5%83%8F%E6%BA%90">conda 镜像源</a>)</p>
+<p>用户配置文件 <code>~/.condarc</code> (见 <a href="#conda-%E9%95%9C%E5%83%8F%E6%BA%90">conda 镜像源</a>)<br>
+参考链接 <a href="https://conda.io/docs/user-guide/configuration/use-condarc.html">https://conda.io/docs/user-guide/configuration/use-condarc.html</a></p>
 <p>也可以在不同的环境用不同的配置文件: <code>~/miniconda3/envs/&lt;env_name&gt;/.condarc</code></p>
 
 </div>
@@ -12415,12 +12385,6 @@ trusted-host = pypi.doubanio.com
 <div class="highlight"><pre><span></span>conda config --add/--prepend channels &lt;new_channel&gt;
 conda config --append channels &lt;new_channel&gt;
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>清华源:<br>
 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/</a><br>
 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</a><br>
@@ -12431,12 +12395,6 @@ conda config --append channels &lt;new_channel&gt;
 <p>e.g.</p>
 <div class="highlight"><pre><span></span>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>此时 <code>~/.condarc</code> 的内容:</p>
 <blockquote><p>channels:<br>
  - <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/</a><br>
@@ -12526,12 +12484,7 @@ sudo -H python3.6 get-pip.py
 conda install scipy
 conda install matplotlib
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<p> Or</p>
 <div class="highlight"><pre><span></span>pip install numpy
 pip install scipy
 pip install matplotlib
@@ -12614,7 +12567,7 @@ else:
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="astropy,-sunpy">astropy, sunpy<a class="anchor-link" href="#astropy,-sunpy">¶</a></h3>
+<h3 id="Astropy,-SunPy">Astropy, SunPy<a class="anchor-link" href="#Astropy,-SunPy">¶</a></h3>
 </div>
 </div>
 </div>
@@ -12623,12 +12576,7 @@ else:
 <div class="highlight"><pre><span></span>conda install astropy
 conda install sunpy -c conda-forge
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<p> Or</p>
 <div class="highlight"><pre><span></span>pip install astropy
 pip install sunpy<span class="o">[</span>all<span class="o">]</span> pytest
 </pre></div>
@@ -12891,7 +12839,7 @@ e.g.</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="jupyter">jupyter<a class="anchor-link" href="#jupyter">¶</a></h3>
+<h3 id="Jupyter">Jupyter<a class="anchor-link" href="#Jupyter">¶</a></h3>
 </div>
 </div>
 </div>
@@ -12899,12 +12847,7 @@ e.g.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>conda install jupyter
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<p> Or</p>
 <div class="highlight"><pre><span></span>pip install jupyter
 </pre></div>
 
@@ -12955,20 +12898,8 @@ runtime:
 <ul>
 <li>设置双击打开 *.ipynb 文件</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>pip install nbopen
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>再执行:</p>
 <p>Linux/BSD: <br></p>
 <div class="highlight"><pre><span></span>python3 -m nbopen.install_xdg&lt;br&gt;
@@ -12991,12 +12922,6 @@ runtime:
 <ul>
 <li>Jupyter 插件集合<br>(<a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions">https://github.com/ipython-contrib/jupyter_contrib_nbextensions</a>)</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>conda install jupyter_contrib_nbextensions -c conda-forge
 </pre></div>
 <p> Or</p>
@@ -13005,20 +12930,8 @@ runtime:
 <blockquote><p>This also automatically installs the Javascript and CSS files:<br>
 <code>jupyter contrib nbextension install --sys-prefix</code></p>
 </blockquote>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>安装好后将同时启用 <code>Nbextensions</code> 选项卡, 手动选择需要的插件, 
 或者在命令行启用和禁用:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>jupyter nbextension list <span class="c1"># 查看</span>
 jupyter nbextension <span class="nb">enable</span> &lt;path&gt; <span class="c1"># &lt;path&gt; 为上述 list 中的 &lt;extension&gt;/main</span>
 jupyter nbextension disable &lt;path&gt;
@@ -13032,12 +12945,6 @@ jupyter nbextension disable &lt;path&gt;
 <ul>
 <li>notebook主题 (<a href="https://github.com/dunovank/jupyter-themes">https://github.com/dunovank/jupyter-themes</a>)</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>pip install jupyterthemes
 </pre></div>
 
@@ -13049,12 +12956,6 @@ jupyter nbextension disable &lt;path&gt;
 <ul>
 <li>演示代码过程的插件 (<a href="https://github.com/lgpage/nbtutor">https://github.com/lgpage/nbtutor</a>)</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>conda install nbtutor -c conda-forge
 </pre></div>
 <p> Or</p>
@@ -13062,12 +12963,6 @@ jupyter nbextension disable &lt;path&gt;
 jupyter nbextension install --overwrite --py nbtutor
 jupyter nbextension <span class="nb">enable</span> --py nbtutor
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>载入:</p>
 <div class="highlight"><pre><span></span><span class="c1"># ipython/jupyter</span>
 <span class="o">%</span><span class="n">load_ext</span> <span class="n">nbtutor</span>
@@ -13094,12 +12989,6 @@ CodeCell 中首行加入下面语句, 然后执行 Cell (numpy 等需要在 Cell
 <ul>
 <li>PeakUtils (<a href="http://peakutils.readthedocs.io/en/latest/">http://peakutils.readthedocs.io/en/latest/</a>)</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>git clone https://bitbucket.org/lucashnegri/peakutils.git
 <span class="nb">cd</span> peakutils
 python setup.py install
@@ -13115,12 +13004,6 @@ python setup.py install
 <ul>
 <li>LMfit-py (<a href="https://github.com/lmfit/lmfit-py">https://github.com/lmfit/lmfit-py</a>)</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>conda install lmfit -c conda-forge
 <span class="c1"># 或</span>
 pip install lmfit
@@ -13136,12 +13019,6 @@ pip install lmfit
 <ul>
 <li>HDF5包 (<a href="http://docs.h5py.org/en/latest/index.html">http://docs.h5py.org/en/latest/index.html</a>)<br></li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>pandas</strong></p>
 <div class="highlight"><pre><span></span>conda install pytables pandas
 </pre></div>
@@ -13166,12 +13043,6 @@ pip install lmfit
 </ul>
 <p>安装 spacepy (<a href="https://pythonhosted.org/SpacePy">https://pythonhosted.org/SpacePy</a>)</p>
 <p>或</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>pip install cdflib <span class="c1"># https://github.com/MAVENSDC/cdflib</span>
 </pre></div>
 
@@ -13183,12 +13054,6 @@ pip install lmfit
 <ul>
 <li>EVTK (<a href="https://bitbucket.org/pauloh/pyevtk">https://bitbucket.org/pauloh/pyevtk</a>)</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>sudo apt-get install mercurial  <span class="c1"># 得到 hg 命令</span>
 
 hg clone https://bitbucket.org/pauloh/pyevtk
@@ -13197,12 +13062,6 @@ python setup.py build --debug install
 </pre></div>
 <div class="highlight"><pre><span></span>hg pull <span class="o">&amp;&amp;</span> hg update default <span class="c1"># 更新</span>
 </pre></div>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">evtk.hl</span> <span class="kn">import</span> <span class="n">gridToVTK</span>
 </pre></div>
 
@@ -13214,12 +13073,6 @@ python setup.py build --debug install
 <ul>
 <li>Mayavi (<a href="http://docs.enthought.com/mayavi/mayavi">http://docs.enthought.com/mayavi/mayavi</a>)</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <div class="highlight"><pre><span></span>pip install mayavi  <span class="c1"># 将同时安装 vtk. (pip 是目前 mayavi 最保险的安装方式)</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="c1"># shell</span>
