@@ -1,6 +1,6 @@
 # Python Introduction (Tips & Examples)
 
-*Update: 2018-06-28*
+*Update: 2018-06-29*
 
 Presentations for Solar Group, Nanjing University.
 
