@@ -2,7 +2,7 @@
 
 Update:
 
-*2018-06-30* 修改了 html 的显示, 去掉了侧边栏, 现在打开比较快
+*2018-06-30* 修改了 html 的显示, 去掉了侧边栏, 现在打开比较快. (但正文的标题编号bug仍未解决因此暂时去掉了, 转pdf也有bug因此暂时未上传)
 
 Presentations for Solar Group, Nanjing University.
 
