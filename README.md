@@ -1,6 +1,7 @@
 # Python Introduction (Tips & Examples)
 
 *Update: 2018-06-30* 修改了 html 的显示, 去掉了侧边栏, 现在打开比较快
+
 *Update: 2018-06-29*
 
 Presentations for Solar Group, Nanjing University.
