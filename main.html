@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8">
-<title>main</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<!-- <title>main</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
 
 <style type="text/css">
     /*!
@@ -11775,7 +11775,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script> -->
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -11795,28 +11795,6 @@ div#notebook {
     });
     </script>
     <!-- End of mathjax configuration --></head>
-
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="https://rawgit.com/ipython-contrib/jupyter_contrib_nbextensions/master/src/jupyter_contrib_nbextensions/nbextensions/toc2/main.css">
-
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script src="https://rawgit.com/ipython-contrib/jupyter_contrib_nbextensions/master/src/jupyter_contrib_nbextensions/nbextensions/toc2/toc2.js"></script>
-
-<script>
-$( document ).ready(function(){
-
-            var cfg = {"base_numbering": 1, "nav_menu": {"height": "532px", "width": "501px"}, "number_sections": true, "sideBar": true, "skip_h1_title": true, "title_cell": "Python \u7b80\u6613\u6559\u7a0b (for Solar Group)", "title_sidebar": "", "toc_cell": false, "toc_position": {"height": "643px", "left": "1038px", "top": "95px", "width": "245px"}, "toc_section_display": true, "toc_window_display": true};
-
-            // fire the main function with these parameters
-            require(['nbextensions/toc2/toc2'], function (toc2) {
-                toc2.table_of_contents(cfg);
-            });
-    });
-</script>
 <body>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
@@ -11831,6 +11809,13 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Python-简易教程-(for-Solar-Group)">Python 简易教程 (for Solar Group)<a class="anchor-link" href="#Python-%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B-(for-Solar-Group)">¶</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p><h1><span class="tocSkip"></span></h1>
+<div class="toc"><ul class="toc-item"><li><span><a href="#%E7%AE%80%E4%BB%8B" data-toc-modified-id="简介-1"><span class="toc-item-num">1  </span>简介</a></span></li><li><span><a href="#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95" data-toc-modified-id="基本语法-2"><span class="toc-item-num">2  </span>基本语法</a></span><ul class="toc-item"><li><span><a href="#%E8%AF%AD%E6%B3%95%E7%89%B9%E7%82%B9" data-toc-modified-id="语法特点-2.1"><span class="toc-item-num">2.1  </span>语法特点</a></span></li><li><span><a href="#print%E5%87%BD%E6%95%B0" data-toc-modified-id="print函数-2.2"><span class="toc-item-num">2.2  </span>print函数</a></span></li><li><span><a href="#%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%AE%97" data-toc-modified-id="基本运算-2.3"><span class="toc-item-num">2.3  </span>基本运算</a></span></li><li><span><a href="#%E5%AD%97%E7%AC%A6%E4%B8%B2" data-toc-modified-id="字符串-2.4"><span class="toc-item-num">2.4  </span>字符串</a></span></li><li><span><a href="#list,-tuple,-dict,-set" data-toc-modified-id="list,-tuple,-dict,-set-2.5"><span class="toc-item-num">2.5  </span>list, tuple, dict, set</a></span></li><li><span><a href="#if-%E8%AF%AD%E5%8F%A5" data-toc-modified-id="if-语句-2.6"><span class="toc-item-num">2.6  </span>if 语句</a></span></li><li><span><a href="#%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7" data-toc-modified-id="相关工具-2.7"><span class="toc-item-num">2.7  </span>相关工具</a></span><ul class="toc-item"><li><span><a href="#pip" data-toc-modified-id="pip-2.7.1"><span class="toc-item-num">2.7.1  </span>pip</a></span></li><li><span><a href="#Anaconda" data-toc-modified-id="Anaconda-2.7.2"><span class="toc-item-num">2.7.2  </span>Anaconda</a></span></li><li><span><a href="#IPython-&amp;-Jupyter" data-toc-modified-id="IPython-&amp;-Jupyter-2.7.3"><span class="toc-item-num">2.7.3  </span>IPython &amp; Jupyter</a></span></li></ul></li></ul></li><li><span><a href="#%E5%B8%B8%E7%94%A8%E5%8C%85%E4%BB%8B%E7%BB%8D" data-toc-modified-id="常用包介绍-3"><span class="toc-item-num">3  </span>常用包介绍</a></span><ul class="toc-item"><li><span><a href="#Python-%E8%87%AA%E5%B8%A6%E5%8C%85%E5%92%8C%E6%A8%A1%E5%9D%97" data-toc-modified-id="Python-自带包和模块-3.1"><span class="toc-item-num">3.1  </span>Python 自带包和模块</a></span></li><li><span><a href="#NumPy,-SciPy" data-toc-modified-id="NumPy,-SciPy-3.2"><span class="toc-item-num">3.2  </span>NumPy, SciPy</a></span><ul class="toc-item"><li><span><a href="#%E6%A6%82%E8%A7%88" data-toc-modified-id="概览-3.2.1"><span class="toc-item-num">3.2.1  </span>概览</a></span></li><li><span><a href="#%E7%94%9F%E6%88%90-numpy.ndarray-%E6%95%B0%E7%BB%84" data-toc-modified-id="生成-numpy.ndarray-数组-3.2.2"><span class="toc-item-num">3.2.2  </span>生成 numpy.ndarray 数组</a></span></li></ul></li><li><span><a href="#Matplotlib" data-toc-modified-id="Matplotlib-3.3"><span class="toc-item-num">3.3  </span>Matplotlib</a></span></li><li><span><a href="#%E5%A4%A9%E6%96%87%E7%9B%B8%E5%85%B3%E5%8C%85" data-toc-modified-id="天文相关包-3.4"><span class="toc-item-num">3.4  </span>天文相关包</a></span><ul class="toc-item"><li><span><a href="#Astropy" data-toc-modified-id="Astropy-3.4.1"><span class="toc-item-num">3.4.1  </span>Astropy</a></span></li><li><span><a href="#SunPy" data-toc-modified-id="SunPy-3.4.2"><span class="toc-item-num">3.4.2  </span>SunPy</a></span></li></ul></li></ul></li><li><span><a href="#%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99" data-toc-modified-id="常见数据文件读写-4"><span class="toc-item-num">4  </span>常见数据文件读写</a></span><ul class="toc-item"><li><span><a href="#%E4%B8%80%E8%88%AC%E6%83%85%E5%86%B5" data-toc-modified-id="一般情况-4.1"><span class="toc-item-num">4.1  </span>一般情况</a></span></li><li><span><a href="#txt,-csv-%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99" data-toc-modified-id="txt,-csv-文件读写-4.2"><span class="toc-item-num">4.2  </span>txt, csv 文件读写</a></span></li><li><span><a href="#numpy-save-%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99" data-toc-modified-id="numpy-save-文件读写-4.3"><span class="toc-item-num">4.3  </span>numpy save 文件读写</a></span></li><li><span><a href="#IDL-sav-%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96" data-toc-modified-id="IDL-sav-文件读取-4.4"><span class="toc-item-num">4.4  </span>IDL sav 文件读取</a></span></li><li><span><a href="#fits-%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96" data-toc-modified-id="fits-文件读取-4.5"><span class="toc-item-num">4.5  </span>fits 文件读取</a></span></li></ul></li><li><span><a href="#%E5%85%B6%E4%BB%96%E5%8C%85%E5%92%8C%E8%BD%AF%E4%BB%B6" data-toc-modified-id="其他包和软件-5"><span class="toc-item-num">5  </span>其他包和软件</a></span></li></ul></div>
 </div>
 </div>
 </div>
