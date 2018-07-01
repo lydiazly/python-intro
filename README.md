@@ -7,7 +7,7 @@ Presentations for Solar Group, Nanjing University.
 SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
 
 > [Update]<br>
-> *2018-07-01*&emsp;试着转了pdf版本<br>
+> *2018-07-01*&emsp;试着转了 pdf 版本<br>
 > *2018-06-30*&emsp;修改了 html 的显示, 去掉了侧边栏, 现在打开速度比较快. (但正文的标题编号bug仍未解决因此暂时去掉了.
 
 ---
