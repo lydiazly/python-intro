@@ -1,16 +1,14 @@
 # Python Introduction (Tips & Examples)
 
-Update:
-
-*2018-06-30* 修改了 html 的显示, 去掉了侧边栏, 现在打开比较快. (但正文的标题编号bug仍未解决因此暂时去掉了, 转pdf也有bug因此暂时未上传)
-
 Presentations for Solar Group, Nanjing University.
 
 (课件题图来自 www.digitalocean.com)
 
-`$ git clone https://git.coding.net/lydiazly/python-intro.git`
-
 SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
+
+> [Update]<br>
+> *2018-07-01*&emsp;试着转了pdf版本<br>
+> *2018-06-30*&emsp;修改了 html 的显示, 去掉了侧边栏, 现在打开速度比较快. (但正文的标题编号bug仍未解决因此暂时去掉了.
 
 ---
 
@@ -18,9 +16,11 @@ SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/
 
 * 安装与配置 (installpy.ipynb)<br>
 右键下载 (
+[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.ipynb)
+|
 [HTML](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html)
 |
-[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.ipynb)
+[PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.pdf)
 )&ensp;
 <a href="http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html" target="_blank">
 预览
@@ -28,21 +28,27 @@ SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/
 
 * Python 简易教程 (for Solar Group) (main.ipynb)<br>
 右键下载 (
+[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.ipynb)
+|
 [HTML](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html)
 |
-[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.ipynb)
+[PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.pdf)
 )
 
 * Python 进阶 (for Solar Group) (advance.ipynb)<br>
 (即将上线)
 
-> 为了之后的更新, 推荐 clone 这个仓库
+为了之后的更新, 推荐 clone 这个仓库
+
+`$ git clone https://git.coding.net/lydiazly/python-intro.git`
+
+---
 
 ## 文件说明
 
 ### `*.ipynb`
 
-* Tested:&ensp;python 3.5+
+> [Tested]&ensp;python 3.5+
 
 打开:
 
@@ -60,11 +66,15 @@ e.g.<br>
 
 ### `examples/*.py`
 
-* Tested:&ensp;python 2.7.12 & python 3.5
+> [Tested]&ensp;python 2.7.12 & python 3.5+
 
 ```sh
 $ python <filename>.py
 ```
+
+注意使用的 `python` 命令对应的版本.
+
+---
 
 ### Jupyter 主题
 
