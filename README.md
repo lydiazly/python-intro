@@ -1,12 +1,17 @@
 # Python Introduction (Tips & Examples)
 
-Presentations for Solar Group, Nanjing University.
+**[Blog] https://lydiazly.coding.me/python-notes**
+
+---
+
+== Presentations for Solar Group, Nanjing University ==
 
 (课件题图来自 www.digitalocean.com)
 
 SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
 
 [ Update ]
+> *2018-07-06*&emsp;Blog已建好, 网页也可以预览了.<br>
 > *2018-07-01*&emsp;试着转了 pdf 版本<br>
 > *2018-06-30*&emsp;修改了 html 的显示, 去掉了侧边栏, 现在打开速度比较快. (但正文的标题编号bug仍未解决因此暂时去掉了.
 
@@ -22,7 +27,7 @@ SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/
 |
 [PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.pdf)
 )&ensp;
-<a href="http://htmlpreview.github.io/?https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html" target="_blank">
+<a href="https://lydiazly.coding.me/python-notes/_pages/installpy.html" target="_blank">
 预览
 </a>
 
@@ -33,14 +38,17 @@ SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/
 [HTML](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html)
 |
 [PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.pdf)
-)
+)&ensp;
+<a href="https://lydiazly.coding.me/python-notes/_pages/main.html" target="_blank">
+预览
+</a>
 
 * Python 进阶 (for Solar Group) (advance.ipynb)<br>
 (即将上线)
 
 为了之后的更新, 推荐 clone 这个仓库:
 
-`$ git clone https://git.coding.net/lydiazly/python-intro.git`
+    $ git clone https://git.coding.net/lydiazly/python-intro.git
 
 ---
 
