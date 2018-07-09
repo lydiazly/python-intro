@@ -1,19 +1,25 @@
 # Python Introduction (Tips & Examples)
 
-**[Blog] https://lydiazly.coding.me/python-notes**
-
----
-
 == Presentations for Solar Group, Nanjing University ==
 
 (课件题图来自 www.digitalocean.com)
 
 SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
 
+[ Blog ] **NEW!**<br>
+https://lydiazly.coding.me/python-notes
+
 [ Update ]
 > *2018-07-06*&emsp;Blog已建好, 网页也可以预览了.<br>
 > *2018-07-01*&emsp;试着转了 pdf 版本<br>
 > *2018-06-30*&emsp;修改了 html 的显示, 去掉了侧边栏, 现在打开速度比较快. (但正文的标题编号bug仍未解决因此暂时去掉了.
+
+[ Tested ]
+
+Ubuntu 16.04 LTS
+Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+2018-07-08|3.6.5|4.4.0|0.9.0|1.14.5|1.1.0|2.2.2|3.0.3|0.23.0
 
 ---
 
