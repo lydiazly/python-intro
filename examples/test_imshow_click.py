@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from __future__ import division, print_function
-# import matplotlib
-# matplotlib.use('TkAgg')  # 'Qt5Agg', 'TkAgg', 'Agg', ...
+import matplotlib
+matplotlib.use('TkAgg')  # 'Qt5Agg', 'TkAgg', 'Agg', ...
 import matplotlib.pyplot as plt
 import numpy as np
 

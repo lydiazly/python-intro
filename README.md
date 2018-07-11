@@ -26,31 +26,27 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 ## Download
 
 * 安装与配置 (installpy.ipynb)<br>
-右键下载 (
+[
 [Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.ipynb)
 |
-[HTML](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.html)
+[HTML](https://lydiazly.coding.me/python-notes/_pages/installpy.html)
 |
 [PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.pdf)
-)&ensp;
-<a href="https://lydiazly.coding.me/python-notes/_pages/installpy.html" target="_blank">
-预览
-</a>
+]
 
 * Python 简易教程 (for Solar Group) (main.ipynb)<br>
-右键下载 (
+[
 [Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.ipynb)
 |
-[HTML](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.html)
+[HTML](https://lydiazly.coding.me/python-notes/_pages/main.html)
 |
 [PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.pdf)
-)&ensp;
-<a href="https://lydiazly.coding.me/python-notes/_pages/main.html" target="_blank">
-预览
-</a>
+]
 
 * Python 进阶 (for Solar Group) (advance.ipynb)<br>
 (即将上线)
+
+网页版已移至 [blog](https://lydiazly.coding.me/python-notes)
 
 为了之后的更新, 推荐 clone 这个仓库:
 
