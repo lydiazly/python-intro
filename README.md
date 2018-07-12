@@ -27,9 +27,7 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 
 * 安装与配置 (installpy.ipynb)<br>
 [
-<a href="https://lydiazly.coding.me/python-notes/notebooks/installpy.ipynb" download target="_blank">
-Jupyter Notebook
-</a>
+[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.ipynb)
 |
 [HTML](https://lydiazly.coding.me/python-notes/_pages/installpy.html)
 |
@@ -38,9 +36,7 @@ Jupyter Notebook
 
 * Python 简易教程 (for Solar Group) (main.ipynb)<br>
 [
-<a href="https://lydiazly.coding.me/python-notes/notebooks/main.ipynb" download>
-Jupyter Notebook
-</a>
+[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.ipynb)
 |
 [HTML](https://lydiazly.coding.me/python-notes/_pages/main.html)
 |
@@ -52,9 +48,7 @@ Jupyter Notebook
 
 内容已全部已移至 [blog](https://lydiazly.coding.me/python-notes)
 
-为了之后的更新, 推荐 clone 这个仓库:
-
-    $ git clone https://git.coding.net/lydiazly/python-intro.git
+为保证 Jupyter Notebook 的图片链接有效, 请同时下载 [fig/](https://coding.net/u/lydiazly/p/python-intro/git/tree/master/fig) 文件夹.
 
 ---
 
