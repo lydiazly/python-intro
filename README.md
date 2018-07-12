@@ -27,7 +27,9 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 
 * 安装与配置 (installpy.ipynb)<br>
 [
-[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.ipynb)
+<a href="https://lydiazly.coding.me/python-notes/notebooks/installpy.ipynb" download>
+Jupyter Notebook
+</a>
 |
 [HTML](https://lydiazly.coding.me/python-notes/_pages/installpy.html)
 |
@@ -36,7 +38,9 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 
 * Python 简易教程 (for Solar Group) (main.ipynb)<br>
 [
-[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.ipynb)
+<a href="https://lydiazly.coding.me/python-notes/notebooks/main.ipynb" download>
+Jupyter Notebook
+</a>
 |
 [HTML](https://lydiazly.coding.me/python-notes/_pages/main.html)
 |
@@ -46,7 +50,7 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 * Python 进阶 (for Solar Group) (advance.ipynb)<br>
 (即将上线)
 
-网页版已移至 [blog](https://lydiazly.coding.me/python-notes)
+内容已全部已移至 [blog](https://lydiazly.coding.me/python-notes)
 
 为了之后的更新, 推荐 clone 这个仓库:
 
