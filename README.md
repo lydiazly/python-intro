@@ -27,7 +27,7 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 
 * 安装与配置 (installpy.ipynb)<br>
 [
-<a href="https://lydiazly.coding.me/python-notes/notebooks/installpy.ipynb" download>
+<a href="https://lydiazly.coding.me/python-notes/notebooks/installpy.ipynb" download target="_blank">
 Jupyter Notebook
 </a>
 |
