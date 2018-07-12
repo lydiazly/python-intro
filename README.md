@@ -13,6 +13,8 @@ https://lydiazly.coding.me/python-notes
 > *2018-07-06*&emsp;Blog已建好, 网页也可以预览了.<br>
 > *2018-07-01*&emsp;试着转了 pdf 版本<br>
 > *2018-06-30*&emsp;修改了 html 的显示, 去掉了侧边栏, 现在打开速度比较快. (但正文的标题编号bug仍未解决因此暂时去掉了.
+> 
+Please let me know if you have any questions: lydiazly@nju.edu.cn
 
 [ Tested ]
 
@@ -46,9 +48,9 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 * Python 进阶 (for Solar Group) (advance.ipynb)<br>
 (即将上线)
 
-内容已全部已移至 [blog](https://lydiazly.coding.me/python-notes)
+**NEW!** 内容已全部已移至 [blog](https://lydiazly.coding.me/python-notes) .
 
-为保证 Jupyter Notebook 的图片链接有效, 请同时下载 [fig/](https://coding.net/u/lydiazly/p/python-intro/git/tree/master/fig) 文件夹.
+为保证 Jupyter Notebook 的图片链接有效, 请同时下载 [fig/](https://coding.net/u/lydiazly/p/python-intro/git/tree/master/fig) 文件夹 (HTML 和 PDF 版不需要).
 
 ---
 
