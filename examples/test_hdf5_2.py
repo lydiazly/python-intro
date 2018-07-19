@@ -7,8 +7,8 @@ import os
 
 datapath = os.path.dirname(os.path.abspath(__file__)) + '/../data'
 
-arr = np.arange(1000000.).reshape(1000, -1)
-arr2 = np.arange(1000000).reshape(500, -1)
+arr = np.random.rand(1000, 1000)
+arr2 = np.random.randint(9, size=(500, 2000))
 
 print("array: %.1f M" % ((arr.nbytes + arr2.nbytes) / 1024.**2))
 
