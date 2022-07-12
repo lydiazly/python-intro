@@ -57,7 +57,7 @@ for ax in axlist[:-1]:
     yticks[0].label1.set_visible(False) # label1: 左侧的y轴
 
 # 存图
-# fig.savefig('figname.pdf', bbox_inches='tight')
+# fig.savefig('figname.pdf', dpi=200, bbox_inches='tight')
 # fig.savefig('figname.png', dpi=200, bbox_inches='tight')
 
 # 跨多个图的随鼠标移动的竖线
