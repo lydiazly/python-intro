@@ -1,1 +1,1 @@
-html 文件显示时, 代码框(Input Cell)内的字体大小可以通过调节浏览器的 Fixed-width font(Monospace) 大小来改变
+html 文件显示时, 代码框 (Input Cell) 内的字体大小可以通过调节浏览器的 Fixed-width font (Monospace) 大小来改变
