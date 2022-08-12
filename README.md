@@ -26,36 +26,17 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 
 ## Download
 
-* 安装与配置 (installpy.ipynb)<br>
-[
-[Jupyter Notebook](/notebooks/installpy.zip)
-|
-[HTML](https://lydiazly.coding.me/python-notes/_pages/installpy.html)
-|
-[PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.pdf)
-]
+* [安装与配置](https://lydiazly.github.io/installpy)
 
-* Python 简易教程 (for Solar Group) (main.ipynb)<br>
-[
-[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.ipynb)
-|
-[HTML](https://lydiazly.coding.me/python-notes/_pages/main.html)
-|
-[PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/main.pdf)
-]
+[[Jupyter Notebook](/notebooks/installpy.zip)]
 
-* Python 进阶 (for Solar Group) (advance.ipynb)<br>
-[
-[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/advance.ipynb)
-|
-[HTML](https://lydiazly.coding.me/python-notes/_pages/advance.html)
-|
-[PDF](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/advance.pdf)
-]
+* [Python 简易教程](https://lydiazly.github.io/main) & [进阶](https://lydiazly.github.io/advance)
+
+[[Jupyter Notebook](/notebooks/python-intro.zip)]
+
 
 **NEW!** 内容已全部已移至 [blog](https://lydiazly.coding.me/python-notes) .
 
-为保证 Jupyter Notebook 的图片链接有效, 请同时下载 [fig/](https://coding.net/u/lydiazly/p/python-intro/git/tree/master/fig) 文件夹 (HTML 和 PDF 版不需要).
 
 ---
 
