@@ -2,12 +2,10 @@
 
 == Presentations for Solar Group, Nanjing University ==
 
-(课件题图来自 www.digitalocean.com)
-
 SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
 
 [ Blog ] **NEW!**<br>
-https://lydiazly.coding.me/python-notes
+https://lydiazly.github.io
 
 [ Update ]
 > *2018-07-19*&emsp;更新 python 进阶课件.<br>
@@ -30,7 +28,7 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 
 * 安装与配置 (installpy.ipynb)<br>
 [
-[Jupyter Notebook](https://coding.net/u/lydiazly/p/python-intro/git/raw/master/installpy.ipynb)
+[Jupyter Notebook](/notebooks/installpy.zip)
 |
 [HTML](https://lydiazly.coding.me/python-notes/_pages/installpy.html)
 |
