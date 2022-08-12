@@ -13,8 +13,7 @@ https://lydiazly.github.io
 > *2018-07-06*&emsp;Blog已建好, 网页也可以预览了.<br>
 > *2018-07-01*&emsp;试着转了 pdf 版本<br>
 > *2018-06-30*&emsp;修改了 html 的显示, 去掉了侧边栏, 现在打开速度比较快. (但正文的标题编号bug仍未解决因此暂时去掉了.
-> 
-Please let me know if you have any questions: lydiazly@nju.edu.cn
+
 
 [ Tested ]
 
@@ -74,7 +73,7 @@ $ python <filename>.py
 分享两个 Jupyter 主题的配置文件:
 
 * [jupyter_css/custom.css](/jupyter_css/custom.css)
-&ensp;放映时使用的主题 (但课件的 html 版本是使用默认主题转存的)<br>
+&ensp;放映时使用的主题<br>
 * [jupyter_css/custom.js](/jupyter_css/custom.js)
 &ensp;其中定义了一个按 **`.`** 键定位到当前的 Cell 的功能
 
