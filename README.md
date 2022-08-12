@@ -2,12 +2,13 @@
 
 == Presentations for Solar Group, Nanjing University ==
 
-SunPy 脚本和自定义模块见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy)
+SunPy 脚本和自定义模块见 [scripts-sunpy](https://github.com/lydiazly/scripts-sunpy)
 
 [ Blog ] **NEW!**<br>
 https://lydiazly.github.io
 
 [ Update ]
+> *2022-08-12*&emsp;更新部分链接.<br>
 > *2018-07-19*&emsp;更新 python 进阶课件.<br>
 > *2018-07-06*&emsp;Blog已建好, 网页也可以预览了.<br>
 > *2018-07-01*&emsp;试着转了 pdf 版本<br>
@@ -48,7 +49,7 @@ Date|Python|Jupyter|Sunpy|NumPy|SciPy|Matplotlib|Astropy|Pandas
 $ jupyter notebook <filename>.ipynb
 ```
 注意 data/ 文件夹需要在同一目录, 否则需要手动修改文档中数据的路径.<br>
-SunPy 示例的数据请手动下载 (见 [scripts-sunpy](https://coding.net/u/lydiazly/p/scripts-sunpy))
+SunPy 示例的数据请手动下载 (见 [scripts-sunpy](https://github.com/lydiazly/scripts-sunpy))
 
 ### `*.html`
 用浏览器打开时, 代码框(Input Cell)内的字体大小可以通过调节浏览器的 Fixed-width font(Monospace) 大小来改变:<br>
